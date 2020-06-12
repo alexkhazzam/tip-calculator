@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    margin: 0px;
+    background-color: #313131;
+}
+
+
+.tip-area {
+    box-shadow: 2px 2px 2px black;
+    min-height: 310px;
+    background-color: #008800;
+    text-align: center;
+    border-radius: 8px;
+    width: fit-content;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+h2 {
+    margin: 10px;
+    color: hsl(0, 33%, 1%);
+}
+
+.percent {
+    font-family: inherit;
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+    outline: none;
+    background-color: #008800;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    color: hsl(0, 33%, 1%);
+}
+
+input:hover {
+    border-bottom: 2px solid #0101c7;
+}
+
+input:focus {
+    border-bottom: 2px solid #0101c7;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: hsl(0, 33%, 1%);
+}
+
+button {
+    color: hsl(0, 33%, 1%);
+    cursor: pointer;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid #0101c7;
+    border-radius: 8px;
+    background-color: #0101c7;
+    margin-bottom: 10px;
+}
+
+.submit-info {
+    color: hsl(0, 33%, 1%);
+    box-shadow: 2px 2px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reset {
+    color: hsl(0, 33%, 1%);
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
